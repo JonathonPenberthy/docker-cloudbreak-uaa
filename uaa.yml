@@ -12,6 +12,12 @@ oauth:
     autoapprove:
       - myresourceserver_shell
   clients:
+    admin:
+      id: admin
+      secret: adminsecret
+      authorized-grant-types: client_credentials
+      scope: none
+      authorities: uaa.admin,clients.admin,clients.read,clients.write,clients.secret
     mywebapp:
       id: mywebapp
       secret: changeme
