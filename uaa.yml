@@ -43,4 +43,5 @@ scim:
   users:
     - paul|wombat|paul@test.org|Paul|Smith|openid,myresourceserver.scope1,myresourceserver.scope2
     - stefan|wallaby|stefan@test.org|Stefan|Schmidt|openid,myresourceserver.scope1,myresourceserver.scope2
+    - root|changeme|root@test.org|Fred|Derf|uaa.admin,clients.admin,clients.read,clients.write,clients.secret
 
