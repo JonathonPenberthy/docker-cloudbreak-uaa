@@ -23,5 +23,5 @@ If you are using boot2docker on OSX, host volume sharing only shares the host fo
 To get the configuration from an URL:
 
 ```
-docker run -d --link uaa-db:db -e UAA_CONFIG_URL=https://raw.githubusercontent.com/sequenceiq/docker-uaa/master/uaa.yml hortonworks/cloudbreak-uaa:2.7.1
+docker run -d --link uaa-db:db -e UAA_CONFIG_URL=https://raw.githubusercontent.com/JonathonPenberthy/docker-cloudbreak-uaa/master/uaa.yml hortonworks/cloudbreak-uaa:2.7.1
 ```
