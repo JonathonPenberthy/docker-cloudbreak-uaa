@@ -12,12 +12,6 @@ oauth:
     autoapprove:
       - myresourceserver_shell
   clients:
-    admin:
-      id: admin
-      secret: adminsecret
-      authorized-grant-types: client_credentials
-      scope: none
-      authorities: uaa.admin,clients.admin,clients.read,clients.write,clients.secret
     mywebapp:
       id: mywebapp
       secret: changeme
@@ -37,6 +31,7 @@ oauth:
       scope: myresourceserver.scope1,myresourceserver.scope2,openid,password.write 
       authorities: uaa.none
       redirect-uri: http://myresourceserver.shell
+uaa.admin.client_secret: adminsecret
 
 scim:
   username_pattern: '[a-z0-9+\-_.@]+'
