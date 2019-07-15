@@ -17,7 +17,7 @@ oauth:
       secret: adminsecret
       authorized-grant-types: client_credentials
       scope: none
-      authorities: uaa.admin,clients.admin,clients.read,clients.write,clients.secret
+      authorities: uaa.admin,clients.admin,clients.read,clients.write,clients.secret,scim.read zones.uaa.admin
     mywebapp:
       id: mywebapp
       secret: changeme
