@@ -18,6 +18,7 @@ oauth:
       authorized-grant-types: client_credentials
       scope: none
       authorities: uaa.admin,clients.admin,clients.read,clients.write,clients.secret,scim.read,zones.uaa.admin
+      redirect-uri: http://localhost
     mywebapp:
       id: mywebapp
       secret: changeme
